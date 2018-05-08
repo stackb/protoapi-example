@@ -1,0 +1,49 @@
+PROTOBUF_COMMIT = "e34ec6077af141dd5dfc1c334ecdcce3c6b51612"
+
+proto_api(
+    location = "github.com",
+    organization = "google",
+    repository = "protobuf",
+    commit = PROTOBUF_COMMIT,
+    name = "descriptor",
+    root = "src",
+    files = ["google/protobuf/descriptor.proto"],
+    go_package = "github.com/golang/protobuf/protoc-gen-go/descriptor",
+)
+
+# proto_api(
+#     location = "github.com",
+#     organization = "google",
+#     repository = "protobuf",
+#     commit = PROTOBUF_COMMIT,
+#     name = "type",
+#     root = "src",
+#     files = ["google/protobuf/type.proto"],
+#     go_package = "google.golang.org/genproto/protobuf/ptype",
+#     deps = [
+#         "source_context",
+#         "any",
+#     ],
+# )
+
+proto_api(
+    location = "github.com",
+    organization = "google",
+    repository = "protobuf",
+    commit = PROTOBUF_COMMIT,
+    name = "source_context",
+    root = "src",
+    files = ["google/protobuf/source_context.proto"],
+    go_package = "google.golang.org/genproto/protobuf/source_context",
+)
+
+proto_api(
+    location = "github.com",
+    organization = "google",
+    repository = "protobuf",
+    commit = PROTOBUF_COMMIT,
+    name = "any",
+    root = "src",
+    files = ["google/protobuf/any.proto"],
+    go_package = "github.com/golang/protobuf/ptypes/any",
+)
