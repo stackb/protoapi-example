@@ -1,5 +1,7 @@
 PROTOBUF_COMMIT = "e34ec6077af141dd5dfc1c334ecdcce3c6b51612"
 
+# ok
+
 proto_api(
     location = "github.com",
     organization = "google",
