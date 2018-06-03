@@ -1,6 +1,6 @@
 PROTOBUF_COMMIT = "e34ec6077af141dd5dfc1c334ecdcce3c6b51612"
 
-proto_api(
+proto_apic(
     location = "github.com",
     organization = "google",
     repository = "protobuf",
