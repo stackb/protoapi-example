@@ -4,6 +4,3 @@ To use the proto build service, place a `proto.api` file in the root of your rep
 
 abcdef      
 ghijklm
-foo
-bar
-baz
