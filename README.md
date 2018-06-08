@@ -6,3 +6,4 @@ abcdef
 ghijklm
 foo
 bar
+baz
